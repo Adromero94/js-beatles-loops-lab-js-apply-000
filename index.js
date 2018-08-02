@@ -5,17 +5,17 @@ function theBeatlesPlay(musicians, instruments) {
 }
   return array;
 }
-function johnLennonFacts() {
-  var facts
-  var array = [];
-  var i = 0;
-  while (array.length < facts.length) {
-    array.push(facts[i] + "!!!");
-    i++;
- }
- return array;
-}
+function johnLennonFacts(facts) {
+  const shoutedFacts = [];
 
+  let i = 0;
+  while (i < facts.length) {
+    shoutedFacts.push(`${facts[i]}!!!`);
+    i++;
+  }
+
+  return shoutedFacts;
+}
 function iLoveTheBeatles(number) {
   var array = [];
   do {
