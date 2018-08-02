@@ -6,7 +6,7 @@ function theBeatlesPlay(musicians, instruments) {
   return array;
 }
 function johnLennonFacts() {
-  var facts = ()
+  var facts = ["He "]
 }
 
 function iLoveTheBeatles(number) {
