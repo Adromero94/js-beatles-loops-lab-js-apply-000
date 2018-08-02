@@ -6,15 +6,15 @@ function theBeatlesPlay(musicians, instruments) {
   return array;
 }
 function johnLennonFacts(facts) {
-  const shoutedFacts = [];
+  const newFacts = [];
 
   let i = 0;
   while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`);
+    newFacts.push(`${facts[i]}!!!`);
     i++;
   }
 
-  return shoutedFacts;
+  return newFacts;
 }
 function iLoveTheBeatles(number) {
   var array = [];
